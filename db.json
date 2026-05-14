@@ -44,15 +44,6 @@
       "state": "available",
       "kitchenOrderId": null,
       "active": true
-    },
-    {
-      "id": 6,
-      "number": "T-06",
-      "capacity": 4,
-      "location": "Main Hall",
-      "state": "available",
-      "kitchenOrderId": 3,
-      "active": true
     }
   ],
   "dishes-categories": [
@@ -140,28 +131,6 @@
     },
     {
       "id": 5,
-      "code": "BEB002",
-      "name": "Coca Cola",
-      "description": "Gaseosa tradicional",
-      "price": 8,
-      "categoryId": 6,
-      "categoryName": "Drinks",
-      "active": true,
-      "outstanding": false
-    },
-    {
-      "id": 6,
-      "code": "CHF004",
-      "name": "Pollo Tipakay",
-      "description": "Pollo frito al estilo chifa bañado en una salsa agridulce de tamarindo, servido con piña adicional",
-      "price": 24,
-      "categoryId": 4,
-      "categoryName": "Special Dishes",
-      "active": true,
-      "outstanding": true
-    },
-    {
-      "id": 7,
       "code": "CHF005",
       "name": "Pollo Chijaukay",
       "description": "Pollo deshuesado rebozado y frito, bañado en una salsa de ostión, sillao y aceite de ajonjolí, servido con nabo encurtido",
@@ -172,7 +141,7 @@
       "outstanding": true
     },
     {
-      "id": 8,
+      "id": 6,
       "code": "PST001",
       "name": "Min Pao Dulce",
       "description": "Panecillos al vapor, suaves y rellenos de pasta de frejol dulce o crema",
@@ -277,17 +246,6 @@
       "quantity": 3,
       "unitPrice": 21,
       "totalPrice": 63,
-      "state": "ready",
-      "observations": ""
-    },
-    {
-      "id": 6,
-      "kitchenOrderId": 3,
-      "dishId": 14,
-      "dishName": "Flan chino",
-      "quantity": 2,
-      "unitPrice": 10,
-      "totalPrice": 20,
       "state": "ready",
       "observations": ""
     }
