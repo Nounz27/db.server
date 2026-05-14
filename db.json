@@ -1,51 +1,4 @@
 {
-  "tables": [
-    {
-      "id": 1,
-      "number": "T-01",
-      "capacity": 4,
-      "location": "Main Hall",
-      "state": "available",
-      "kitchenOrderId": 1,
-      "active": true
-    },
-    {
-      "id": 2,
-      "number": "T-02",
-      "capacity": 6,
-      "location": "Main Hall",
-      "state": "busy",
-      "kitchenOrderId": 1,
-      "active": true
-    },
-    {
-      "id": 3,
-      "number": "T-03",
-      "capacity": 2,
-      "location": "Bar",
-      "state": "available",
-      "kitchenOrderId": 2,
-      "active": true
-    },
-    {
-      "id": 4,
-      "number": "T-04",
-      "capacity": 8,
-      "location": "Terrace",
-      "state": "busy",
-      "kitchenOrderId": null,
-      "active": true
-    },
-    {
-      "id": 5,
-      "number": "T-05",
-      "capacity": 4,
-      "location": "Main Hall",
-      "state": "available",
-      "kitchenOrderId": null,
-      "active": true
-    }
-  ],
   "dishes-categories": [
     {
       "id": 1,
@@ -248,18 +201,6 @@
       "totalPrice": 63,
       "state": "ready",
       "observations": ""
-    }
-  ],
-  "kitchen-locks": [
-    {
-      "id": 1,
-      "userId": 1,
-      "stateLocked": false,
-      "hashPassword": "desarrollo123",
-      "lastLocked": "2026-05-08T20:00:00Z",
-      "lastUnlocked": "2026-05-08T22:00:00Z",
-      "failAttempts": 0,
-      "lockedUntil": true
     }
   ],
   "history-state-kitchen-orders": [
